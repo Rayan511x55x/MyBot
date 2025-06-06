@@ -89,4 +89,4 @@ async def setlogchannel(interaction: discord.Interaction, logchannelid: str):
     except:
         await interaction.response.send_message("❌ Invalid channel ID.", ephemeral=True)
 
-bot.run("MTM3MDE3ODU1Mzc4OTgwODc0Mg.G4Bf2T.N_clNLay2-aPu1Fjeo_tZJPw3q8JBqGLQwh-As")
+bot.run(process.env.token)
